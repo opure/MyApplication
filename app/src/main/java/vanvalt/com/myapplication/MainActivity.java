@@ -24,8 +24,9 @@ public class MainActivity extends Activity {
                // Intent  intent = new Intent(MainActivity.this,SecondActitu.class);
          /*       Intent intent = new Intent("com.vanvalt.yinshi");
                 intent.addCategory("com.vanvalt.mycategory");*/
-                Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:15514397873"));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://www.baidu.com"));
+               // intent.setData(Uri.parse("tel:15514397873"));*/
                 startActivity(intent);
             }
         });

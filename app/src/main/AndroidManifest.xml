@@ -14,12 +14,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActitu">
-       <!--     <intent-filter>
+ <!--      <activit android:name=".SecondActitu">
+       <intent-filter>
                 <action android:name="com.vanvalt.yinshi"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
                 <category android:name="com.vanvalt.mycategory"></category>
-            </intent-filter>-->
+            </intent-filter>
+        </activit>-->
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <data android:scheme="http"></data>
+            </intent-filter>
         </activity>
     </application>
 
