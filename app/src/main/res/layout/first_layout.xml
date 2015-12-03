@@ -8,6 +8,12 @@
         android:layout_height="wrap_content"
         android:text="@string/firstButton"
         />
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="t"
+        />
 
 
 </LinearLayout>

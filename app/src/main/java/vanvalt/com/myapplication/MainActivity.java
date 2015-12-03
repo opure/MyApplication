@@ -18,6 +18,18 @@ public class MainActivity extends Activity {
         setContentView(R.layout.first_layout);
 
         Button button = (Button)findViewById(R.id.button_1);
+        Button button1 = (Button)findViewById(R.id.button_2);
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String data = "HelloWorld";
+                Intent intent = new Intent(MainActivity.this,SecondActitu.class);
+                intent.putExtra("extra_data",data);
+                startActivity(intent);
+            }
+        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
